@@ -1,0 +1,29 @@
+{
+  "name": "schwamm-builder",
+  "version": "1.1.1",
+  "description": "Fluent Baileys builders for interactive buttons, lists, carousels, payments, products, and rich messages",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "whiskeysockets",
+    "builder",
+    "interactive",
+    "native-flow",
+    "buttons",
+    "list",
+    "carousel",
+    "payment",
+    "order",
+    "product",
+    "rich-message",
+    "bot"
+  ],
+  "peerDependencies": {
+    "@whiskeysockets/baileys": "*"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
