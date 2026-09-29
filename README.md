@@ -14,8 +14,8 @@
 </div>
 <div align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1500&color=EF4444&center=true&vCenter=true&width=150&lines=1.1.3%E2%80%8B"
-    alt="1.1.3"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1500&color=EF4444&center=true&vCenter=true&width=150&lines=1.1.6%E2%80%8B"
+    alt="1.1.6"
   />
   <br>
 </div>
@@ -31,6 +31,10 @@ npm i @whiskeysockets/baileys schwamm-builder
 ---
 
 ## Changelog
+
+### 1.1.4 , 1.1.5 , 1.1.6
+
+- Fixed readme errors
 
 ### 1.1.3
 
@@ -426,7 +430,6 @@ await Builder.rich()
   .xBody('Profil')
   .xSocial('instagram', 'zuck')
   .xSocial('facebook', 'zuck', 'See results')
-  .xSocial('telegram', 'TheSatanicMirror', 'Channel')
   .xSocial('threads', 'handle')
   .xSocial('website', 'https://example.com', 'Open site')
   .send(sock, jid);
