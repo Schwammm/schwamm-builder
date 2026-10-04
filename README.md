@@ -14,8 +14,8 @@ style="border-radius: 12px; margin-top: 15px;"
 </div>
 <div  align="center">
 <img
-src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1500&color=EF4444&center=true&vCenter=true&width=150&lines=1.1.7%E2%80%8B"
-alt="1.1.7"
+src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1500&color=EF4444&center=true&vCenter=true&width=150&lines=1.1.8%E2%80%8B"
+alt="1.1.8"
 />
 <br>
 </div>
@@ -44,7 +44,9 @@ npm  i  @whiskeysockets/baileys  schwamm-builder
 
 ## Changelog
 
-  
+### 1.1.8
+
+- Fixed README
 
 ### 1.1.7
 
@@ -147,15 +149,10 @@ npm  i  @whiskeysockets/baileys  schwamm-builder
 
   
 
-| | |
-
+| **Node.js** | `18+` |
 |---|---|
-
-| **Node.js** | 18+ |
-
-| **Peer dependency** | `@whiskeysockets/baileys` (install in your bot) |
-
-| **License** | MIT |
+| **Peer dependency** | `@whiskeysockets/baileys` |
+| **License** | `MIT` |
 
   
 
@@ -326,15 +323,10 @@ if (selectedId ===  'b') await s.m.reply('You picked B');
   
 
 | Builder | Purpose | Best for |
-
-|---------|---------|----------|
-
+|---|---|---|
 | `.interactive()` | Buttons, lists, carousels | User selections, menus |
-
 | `.rich()` | Rich AI-style sections | Tables, code, media, social, HTML |
-
 | `.payment()` | Payments, orders, products | Money flows |
-
 | `.other()` | Text, image, video, sticker, audio | Simple media |
 
   
@@ -396,17 +388,11 @@ await  Builder.interactive()
   
 
 | Method | Type | Use case |
-
-|--------|------|----------|
-
+|---|---|---|
 | `.xButton(text, id, icon?)` | Quick reply | Simple choices |
-
 | `.xUrlButton(text, url, { icon, useWebview })` | Open URL | External links |
-
 | `.xCallButton(text, phone, icon?)` | Call | Phone numbers |
-
 | `.xCopyButton(text, code, icon?)` | Copy | Promo codes |
-
 | `.xReminder(text, id?, icon?)` | Reminder | Set reminders |
 
   
@@ -730,16 +716,11 @@ await  Builder.rich()
   
 
 | Method | Purpose | Location |
-
-|--------|---------|----------|
-
+|---|---|---|
 | `.xHeader(text)` | Main heading | Inside message |
-
 | `.xBody(text)` | Body content | Inside message |
-
 | `.xTip(text)` | Small info text | Inside message (metadata style) |
-
-| `.xInfo(text)` | Disclaimer/footer | **Under entire message** (botMetadata) |
+| `.xInfo(text)` | Disclaimer/footer | **Under entire message** (`botMetadata`) |
 
   
 
@@ -808,14 +789,10 @@ align:  'left'
   
 
 | Method | Role | Size options |
-
-|--------|------|--------------|
-
+|---|---|---|
 | `.xImage(url, opts?)` | Large banner image | `width`, `height`, `mime`, `status`, `update_text` |
-
 | `.xIcon(url, opts?)` | Small inline icon | `width`, `height`, `fontHeight`, `padding`, `align`, `expression` |
-
-| `.xIcons(urls, opts?)` | Several icons | same as `.xIcon` (shared opts) |
+| `.xIcons(urls, opts?)` | Several icons | Same as `.xIcon` (shared opts) |
 
   
 
@@ -1168,18 +1145,12 @@ loop:  false
   
 
 | Option | Description |
-
-|--------|-------------|
-
-| `sound` | Single file → id `default` (`play('default')`) |
-
-| `sounds` | Map of id → local path |
-
+|---|---|
+| `sound` | Single file → ID `default` (`play('default')`) |
+| `sounds` | Map of ID → local path |
 | `volume` | Gain (default `1`) |
-
 | `loop` | Default `false`; set `true` to loop |
-
-| `autoplay` | `true` = first/default sound on open; or id string e.g. `'win'` |
+| `autoplay` | `true` = first/default sound on open; or an ID string, e.g. `'win'` |
 
 ### Social profiles
 
@@ -1208,13 +1179,9 @@ await  Builder.rich()
   
 
 | Arg | Description |
-
-|-----|-------------|
-
+|---|---|
 | `service` | `instagram` / `ig`, `facebook` / `fb`, `threads`, `telegram` / `tg`, `website` / `web` |
-
 | `name` | Handle (without `@`) or full URL |
-
 | `label` | Chip label (default: `See results`) |
 
 
@@ -1591,26 +1558,16 @@ deleteForMe:  true
   
 
 | Opt | Effect |
-
-|-----|--------|
-
-| `ai` | AI/bot label — **private chats only**  |
-
+|---|---|
+| `ai` | AI/bot label — **private chats only** |
 | `secure` | Secure meta / business attributes |
-
 | `forward` | `number` or `true` → forwarded score; `false` / `null` to clear |
-
 | `status` | `true` \| type string \| `{ type, text, message, itemCount, title, price, currency, packName }` |
-
 | `bypassDownloadBtn` | **V1** — rich inline render instead of download button |
-
 | `bypassDownloadBtnV2` | **V2** — more reliable after closing WhatsApp and reopening the chat |
-
 | `bypassDownloadInterval` | Delay in ms between V2 attempts |
-
 | `bypassDownloadMax` | Max V2 attempts (`0` = unlimited / continuous) |
-
-| `deleteForMe` | After send, try **delete for me only** (others still see it).  |
+| `deleteForMe` | After send, try **delete for me only** (others still see it) |
 
   
 
