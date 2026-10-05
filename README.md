@@ -14,8 +14,8 @@ style="border-radius: 12px; margin-top: 15px;"
 </div>
 <div  align="center">
 <img
-src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1500&color=EF4444&center=true&vCenter=true&width=150&lines=1.1.8%E2%80%8B"
-alt="1.1.8"
+src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1500&color=EF4444&center=true&vCenter=true&width=150&lines=1.1.9%E2%80%8B"
+alt="1.1.9"
 />
 <br>
 </div>
