@@ -1,6 +1,6 @@
 {
   "name": "schwamm-builder",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Fluent Baileys builders for interactive buttons, lists, carousels, payments, products, and rich messages",
   "main": "index.js",
   "license": "MIT",

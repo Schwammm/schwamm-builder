@@ -44,6 +44,10 @@ npm  i  @whiskeysockets/baileys  schwamm-builder
 
 ## Changelog
 
+### 1.1.9
+
+- Fixed TableV2 rendering issue
+
 ### 1.1.8
 
 - Fixed README
